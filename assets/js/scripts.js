@@ -234,11 +234,11 @@ jQuery(function ($) {
     // -------------------------------------------------------------
     // Vidio auto play
     // -------------------------------------------------------------
-    (function () {
+ //   (function () {
     
     /* Vimeo API: http://developer.vimeo.com/player/js-api */
     
-        var iframe = document.getElementById('nofocusvideo');
+    /*    var iframe = document.getElementById('nofocusvideo');
         // $f == Froogaloop
         var player = $f(iframe);
 
@@ -249,7 +249,7 @@ jQuery(function ($) {
         $('.modal').on('shown.bs.modal', function () {
         player.api('play');
         })
-    }());
+    }())   */ ;
 
 
 
@@ -326,7 +326,7 @@ jQuery(function ($) {
     // Google Map
     // -------------------------------------------------------------
 
-  /*  (function () {
+   /* (function () {
         var myLatlng = new google.maps.LatLng(41.372641, -74.687387);
 
             var styles = [
@@ -389,7 +389,7 @@ jQuery(function ($) {
                 infowindow.open(map, marker);
             });
 
-    }()) */;
+    }()) */ ;
 
 
 });
